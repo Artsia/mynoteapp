@@ -1,0 +1,135 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+    
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 375px;
+    height: auto;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+    height: auto;
+}
+
+#noteAndNumberContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    font-weight: 800;
+}
+
+#noteNumberId {
+    padding: 0px 10px;
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 15%;
+    color: white;
+}
+
+#markReadContainer {
+    width: 100px;
+    color: hsl(219, 14%, 63%);
+
+}
+
+#markBtn {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+/*Comment Section*/
+
+#CommentContainerAll {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+
+
+.commentContainer {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    background-color: hsl(210, 60%, 98%);
+    margin: 10px 0px;
+    border-radius: 10%;
+}
+
+#whitebg{
+    background-color: white;
+}
+
+.image {
+    width: 40px;
+    margin: 0px 15px;
+}
+
+#whitebg{
+    background-color: white;
+}
+
+
+.commentDiv {
+    color: hsl(219, 14%, 63%);
+    width: 330px;
+
+}
+
+
+.boldName {
+    font-weight: 300;
+    color: hsl(224, 21%, 14%);
+}
+
+.redDot {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: hsl(1, 90%, 64%);
+}
+
+.boldClubName {
+    font-weight: 300;
+    color: hsl(219, 85%, 26%);
+
+}
+
+/**Unique textField*/
+
+#onlyCommentNoPic {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    
+}
+
+#borderAround {
+    border: 1px solid  hsl(211, 68%, 94%);
+    padding: 10px;
+    margin-left: 40px;
+}
+
